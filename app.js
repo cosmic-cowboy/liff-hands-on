@@ -8,7 +8,7 @@ const low = require('lowdb');
 const FileSync = require('lowdb/adapters/FileSync');
 const adapter = new FileSync('db.json');
 const db = low(adapter);
-const APP_URL = 'https://40012979.ngrok.io';
+const APP_URL = 'https://liff-hand-on-morugu.herokuapp.com';
 
 app.use(
 	bodyParser.urlencoded({

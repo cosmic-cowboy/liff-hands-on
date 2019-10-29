@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	var liffAppId = '1653289441-4zeVlKkV';
+	var liffAppId = '1653390882-Ko3dlZ6g';
 	var userId = '';
 	liff.init(
 		{
